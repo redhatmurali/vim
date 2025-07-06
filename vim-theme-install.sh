@@ -29,6 +29,18 @@ set hlsearch
 
 " --- Color Scheme ---
 let base16colorspace=256
+"colorscheme gruvbox
+"colorscheme nord
+"colorscheme gruvbox-material
+"colorscheme tokyonight
+"colorscheme onedark
+"colorscheme monokai
+"colorscheme kanagawa
+"colorscheme everforest
+"colorscheme PaperColor
+"colorscheme nightfox
+"colorscheme catppuccin_mocha  " good light blue
+"colorscheme rose-pine
 colorscheme base16-gruvbox-dark-medium
 EOF
 
