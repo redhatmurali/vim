@@ -29,7 +29,7 @@ set hlsearch
 
 " --- Color scheme ---
 " Uncomment any one of the following to try a theme:
-colorscheme gruvbox
+"colorscheme gruvbox
 "colorscheme nord
 "colorscheme gruvbox-material
 "colorscheme tokyonight
@@ -41,7 +41,7 @@ colorscheme gruvbox
 "colorscheme nightfox
 "colorscheme catppuccin_mocha  " good light blue
 "colorscheme rose-pine
-"colorscheme base16-gruvbox-dark-medium
+colorscheme base16-gruvbox-dark-medium
 
 EOF
 
@@ -53,6 +53,8 @@ echo "🎨 Downloading selected color schemes..."
 # Only downloading gruvbox and catppuccin as examples
 curl -fsSL https://raw.githubusercontent.com/morhetz/gruvbox/master/colors/gruvbox.vim -o ~/.vim/colors/gruvbox.vim
 curl -fsSL https://raw.githubusercontent.com/catppuccin/vim/main/colors/catppuccin_mocha.vim -o ~/.vim/colors/catppuccin_mocha.vim
+curl -fsSL https://raw.githubusercontent.com/chriskempson/base16-vim/main/colors/base16-gruvbox-dark-medium.vim \
+  -o ~/.config/nvim/colors/base16-gruvbox-dark-medium.vim
 
 # You can uncomment more curl lines below to download additional themes:
 # curl -fsSL https://raw.githubusercontent.com/arcticicestudio/nord-vim/develop/colors/nord.vim -o ~/.vim/colors/nord.vim
