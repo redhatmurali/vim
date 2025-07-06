@@ -53,8 +53,8 @@ echo "🎨 Downloading selected color schemes..."
 # Only downloading gruvbox and catppuccin as examples
 curl -fsSL https://raw.githubusercontent.com/morhetz/gruvbox/master/colors/gruvbox.vim -o ~/.vim/colors/gruvbox.vim
 curl -fsSL https://raw.githubusercontent.com/catppuccin/vim/main/colors/catppuccin_mocha.vim -o ~/.vim/colors/catppuccin_mocha.vim
-curl -fsSL https://raw.githubusercontent.com/chriskempson/base16-vim/main/colors/base16-gruvbox-dark-medium.vim \
-  -o ~/.config/nvim/colors/base16-gruvbox-dark-medium.vim
+git clone https://github.com/tinted-theming/base16-vim.git ~/.vim/pack/themes/start/base16
+
 
 # You can uncomment more curl lines below to download additional themes:
 # curl -fsSL https://raw.githubusercontent.com/arcticicestudio/nord-vim/develop/colors/nord.vim -o ~/.vim/colors/nord.vim
