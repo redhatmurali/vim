@@ -3,6 +3,8 @@ You can run this one-liner in your terminal:
 
 bash <(curl -fsSL https://raw.githubusercontent.com/redhatmurali/vim/main/vim-theme-install.sh)
 
+bash <(curl -fsSL https://raw.githubusercontent.com/redhatmurali/vim/main/vim-install-simple.sh)
+ 
 ✅ Option 2: Clone the repo and run
 If you want to inspect or edit the script first:
 
